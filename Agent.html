@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+      body {
+        font-family: "PT Sans", sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        border: 1px solid #dddddd;
+      }
+      .footer {
+        display: flex;
+        align-items: flex-end;
+        text-align: left;
+        /* background-color: #003366; */
+        color: rgb(255, 255, 255);
+        padding: 20px;
+      }
+      .header {
+        color: white;
+        text-align: center;
+        padding: 10px 20px;
+      }
+      .header img {
+        width: 150px;
+        height: 50px;
+      }
+      .content {
+        padding: 10px 20px;
+      }
+      .content h1 {
+        font-size: 18px;
+        background-color: #122e55;
+        color: white;
+        margin-bottom: 20px;
+        padding: 10px;
+      }
+      .ticket-info {
+        height: 240px;
+        background-color: #f9f9f9;
+        padding: 10px 20px;
+        margin-top: 20px;
+      }
+
+      .ticket-info h2 {
+        text-align: center;
+      }
+      .ticket-info table {
+        width: 100%;
+        margin-top: 10px;
+        border-collapse: collapse;
+      }
+      .ticket-info th,
+      .ticket-info td {
+        text-align: left;
+      }
+      .ticket-info th {
+        font-size: 9.9px;
+        color: #939393;
+      }
+      .ticket-info td {
+        font-size: 12.5px;
+        font-weight: 700;
+        color: #122e55;
+      }
+      .footer p {
+        font-size: 12px;
+        color: #dddddd;
+      }
+      .footer .social-icons {
+        display: flex;
+        gap: 7px;
+        margin-top: 10px;
+      }
+      .footer .social-icons a {
+        color: white;
+        margin: 0 10px;
+        text-decoration: none;
+        font-size: 15px;
+      }
+      .password {
+        width: 100% !important;
+        empty-cells: show;
+        margin-bottom: 20px;
+      }
+      #status {
+        font-size: 14px;
+        font-weight: 700;
+      }
+      .footer p {
+        font-size: 8.58px;
+        font-weight: 500;
+        color: #898989;
+      }
+      #copy-write {
+        font-weight: 700;
+        font-size: 8.58px;
+        color: #000000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img
+          src="https://etripzone.com/static/media/logo.9a321763baf7b56415be.png"
+          alt="etripzone-logo"
+        />
+        <hr />
+      </div>
+      <div class="content">
+        <h1>Welcome on Board</h1>
+        <table>
+          <th align="left" width="50%">Hello Mr. XYZ</th>
+          <td align="right" width="60%">22nd May 2022</td>
+        </table>
+
+        <div class="ticket-info">
+          <h2>E Trip Ticket</h2>
+          <table class="password">
+            <tr>
+              <th>Agent First Name</th>
+              <th>Agent Last Name</th>
+              <th width="30%"></th>
+            </tr>
+            <tr>
+              <td>Mr. XYZ</td>
+              <td>Mr. XYZ</td>
+              <td width="30%"></td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <th width="35.5%">Phone Number</th>
+              <th width="33.3%">Country</th>
+              <th width="33.3%">Address</th>
+            </tr>
+            <tr>
+              <td width="33.3%">+880155558588</td>
+              <td width="33.3%">Bangladesh</td>
+              <td width="33.3%">XYZ, Dhaka, Bangladesh</td>
+            </tr>
+          </table>
+          <table class="password">
+            <tr>
+              <th>Username</th>
+              <th>Password</th>
+              <th width="40%"></th>
+            </tr>
+            <tr>
+              <td>xyz@example.com</td>
+              <td>1454581558</td>
+              <td width="40%"></td>
+            </tr>
+          </table>
+          <span id="status">Status Pending</span>
+        </div>
+      </div>
+      <div class="footer">
+        <div>
+          <p>
+            ©2024 Etrip Zone. This random tool provides random addresses in
+            Bangladesh, including street, city, phone number,
+            state/area/province. You can also specify the number to generate.
+          </p>
+          <p id="copy-write">E trip zone All rights reserved.</p>
+        </div>
+
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
