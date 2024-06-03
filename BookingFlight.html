@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Agent Or User</title>
+    <title>Booking Flight</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -86,8 +86,8 @@
         color: #dddddd;
       }
       .footer .social-icons {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        display: flex;
+        align-items: flex-end;
         gap: 4px;
         margin-top: 10px;
       }
@@ -100,7 +100,7 @@
       .password {
         width: 100% !important;
         empty-cells: show;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
       }
       #status {
         font-size: 14px;
@@ -129,49 +129,53 @@
         <hr />
       </div>
       <div class="content">
-        <h1>Agent Registration</h1>
+        <h1>Booking Request</h1>
         <table>
           <th align="left" width="80%">Hello Mr. XYZ</th>
           <td align="right" width="20%">22nd May 2022</td>
         </table>
 
         <div class="ticket-info">
-          <h2>E Trip Ticket</h2>
+          <h2>ETD515555</h2>
           <table class="password">
             <tr>
-              <th width="130px">Agent First Name</th>
-              <th width="130px">Agent Last Name</th>
-              <th width="130px"></th>
-              <th width="130px"></th>
+              <th width="130px">Departure City</th>
+              <th width="130px">Arrival City</th>
+              <th width="130px">Trip Type</th>
+              <th width="130px">Traveller</th>
             </tr>
             <tr>
-              <td width="130px">Mr. XYZ</td>
-              <td width="130px">Mr. XYZ</td>
-              <td width="130px"></td>
-              <td width="130px"></td>
+              <td width="130px">DAC</td>
+              <td width="130px">CXB</td>
+              <td width="130px">Round Trip</td>
+              <td width="130px">2 Adult, 1 Child</td>
             </tr>
           </table>
           <table>
             <tr>
-              <th width="130px">Phone Number</th>
-              <th width="130px">Country</th>
-              <th width="260px">Address</th>
+              <th width="130px">Airlines</th>
+              <th width="130px">PNR</th>
+              <th width="130px">Traveller Date</th>
+              <th width="130px"></th>
             </tr>
             <tr>
-              <td width="130px">+880155558588</td>
-              <td width="130px">Bangladesh</td>
-              <td width="260px">XYZ, Dhaka, Bangladesh</td>
+              <td width="130px">Biman Bangladesh</td>
+              <td width="130px">A1451451458</td>
+              <td width="130px">22nd - 25thMarch 2024</td>
+              <td width="130px"></td>
             </tr>
           </table>
           <table class="password">
             <tr>
-              <th width="130px"></th>
+              <th width="130px">Amount</th>
+
               <th width="130px"></th>
               <th width="130px"></th>
               <th width="130px"></th>
             </tr>
             <tr>
-              <td width="130px"></td>
+              <td width="130px">50,000 BDT</td>
+
               <td width="130px"></td>
               <td width="130px"></td>
               <td width="130px"></td>
